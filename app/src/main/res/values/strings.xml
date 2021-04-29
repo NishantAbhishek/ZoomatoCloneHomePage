@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZomatoClone</string>
+
+    <string name="menu_order">Order</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_goout">Go Out</string>
+    <string name="menu_pro">Pro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
