@@ -1,8 +1,10 @@
-package com.example.zomatoclone;
+package com.example.zomatoclone.Controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.zomatoclone.R;
 
 public class CalenderActivity extends AppCompatActivity {
 
