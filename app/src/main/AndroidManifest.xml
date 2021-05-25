@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.zomatoclone">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"></uses-permission>
     <application
         android:name=".Notification.App"
         android:allowBackup="true"
@@ -23,6 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".Notification.Alarm"></service>
+        <receiver android:name=".Notification.NotificationReceiver"></receiver>
     </application>
 
 </manifest>
